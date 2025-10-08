@@ -22,6 +22,7 @@ body {
   align-items: center;
   text-align: center;
   color: whitesmoke;
+  border-radius: 20px;
 }
 img {
   border-radius: 90px;
@@ -37,7 +38,48 @@ h2{
   font-family: 'Inter';
   font-size: 15px;
 }
-a{
-  text-decoration: none;
-  
+.box1 > button{
+  background: gray;
+  border: gray 1px solid;
+  color: whitesmoke;
+  font-size: 1.4rem;
+  width: 20rem;
+  height: 2.5rem;
+  margin: 1rem 0 0 0;
+  border-radius: 10px;
+}
+.box2 > button{
+  background: gray;
+  border: gray 1px solid;
+  color: whitesmoke;
+  font-size: 1.4rem;
+  width: 20rem;
+  height: 2.5rem;
+  margin: 1rem 0 0 0;
+  border-radius: 10px;
+}
+.box3 > button{
+  background: gray;
+  border: gray 1px solid;
+  color: whitesmoke;
+  font-size: 1.4rem;
+  width: 20rem;
+  height: 2.5rem;
+  margin: 1rem 0 0 0;
+  border-radius: 10px;
+}
+.box4 > button{
+  background: gray;
+  border: gray 1px solid;
+  color: whitesmoke;
+  font-size: 1.4rem;
+  width: 20rem;
+  height: 2.5rem;
+  margin: 1rem 0 0 0;
+  border-radius: 10px;
+}
+button:hover{
+  cursor: pointer;
+  background: lightgreen;
+  color: black;
 }
